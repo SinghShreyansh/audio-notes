@@ -13,3 +13,15 @@
 <img width="1552" alt="vTa3" src="https://user-images.githubusercontent.com/91277635/214333317-67f4123f-6090-4e12-a6c9-9f92d1db8af6.png">
 <img width="1552" alt="vTa2" src="https://user-images.githubusercontent.com/91277635/214333326-74d62114-4e85-4d41-9b5a-0311bbfdd41f.png">
 <img width="1552" alt="vTa1" src="https://user-images.githubusercontent.com/91277635/214333337-997be733-ce12-4e58-800b-5def009de19b.png">
+
+## Docker Image
+1. Pull the backend (nodejs microservices server) using docker pull
+ 
+         
+         docker image pull shreyansh0322/video-to-audio-app
+ 
+ 2.Then run the docker image
+         
+          docker run -p 8787:8787 shreyansh0322/video-to-audio-app
+ 
+
